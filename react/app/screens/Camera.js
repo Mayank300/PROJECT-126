@@ -51,7 +51,7 @@ export class PickImage extends Component {
       type: type,
     };
     data.append("digit", fileToUpload);
-    fetch("https://0ce220942490.ngrok.io/predict-digit", {
+    fetch(" your url comes here + /predict-digit", {
       method: "POST",
       body: data,
       headers: {
