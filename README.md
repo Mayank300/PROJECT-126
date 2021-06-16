@@ -62,7 +62,8 @@ For the output, run
 ##### 5000 is the port in which our project is running
 
 ## DON'T FORGET TO CHANGE THE URL TO FETCH FOR THE OUTPUT !!! 
-##### inside /react/app/screens/Camera.js
+##### inside /react/app/screens/Camera.js 
+##### You will get the url from the ngrok's server, running in you terminal.
 
 ### To run the expo server, run
 
