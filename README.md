@@ -1,58 +1,77 @@
-# CLASSWORK-125
+# CLASSWORK-126
 
 
-## Dependencies to install
-
-Use pip to install the dependencies
+## Dependencies used for backend, installed in the root node using `pip`
 
 ```bash
   pip3 install numpy
-  
-  pip3 install pandas
-  
-  pip3 install flask
-  
-  pip3 install sklearn
-  
-  pip3 install pillow
- 
 ```
-  
+```bash
+  pip3 install pandas
+```
+```bash
+  pip3 install flask
+```
+```bash
+  pip3 install sklearn
+```
+```bash
+  pip3 install pillow
+```
+
+## Dependencies used for frontend, installed in /react using `expo`
+
+```bash
+  expo install expo-permissions
+```
+```bash
+  expo install expo-image-picker
+```
+
+## To install node_modules in /react
+
+##### inside /react run
+
+```bash
+  yarn install
+```
+
 ## Running The Code
 
 ### To run the code, run the following command
 
-Creating a Virtual Environment
-
-```bash
-  virtualenv -p python3 ./  
-```
 To activate Virtual Environment
 
+##### inside the root node
+
 ```bash
-  source bin/activate  
+  source env/bin/activate  
 ```
+
 
 For the output, run
 
+##### inside the root node
+
 ```bash
-  python3 app.py
+  python3 python/app.py
+```
+```bash
+  ngrok 5000
+```
+##### 5000 is the port in which our project is running
+
+## DON'T FORGET TO CHANGE THE URL TO FETCH FOR THE OUTPUT !!! 
+##### inside /react/app/screens/Camera.js
+
+### To run the expo server, run
+
+##### inside /react run
+```bash
+  expo start
 ```
 
 
-
-  
-## Output
-
-Open postman and test this `http://127.0.0.1:5000/predict-digit` by using `POST` request.
-Inside `Body/form-data` give a key name as `digit` and choose a image give in the folder and send the request.
-
-  
-## Screenshot Of The Output
-
-![App Screenshot](output-class-125.png)
-
-  
 ## Author
 
 - [@Mayank300](https://github.com/Mayank300)
