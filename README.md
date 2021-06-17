@@ -1,5 +1,6 @@
 # PROJECT-126
 
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/MAYANK__RATRE)
 
 ## Dependencies used for backend, installed in the root node using `pip`
 
