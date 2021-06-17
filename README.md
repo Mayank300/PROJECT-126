@@ -1,4 +1,4 @@
-# CLASSWORK-126
+# PROJECT-126
 
 
 ## Dependencies used for backend, installed in the root node using `pip`
